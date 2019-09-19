@@ -1,0 +1,181 @@
+
+body
+{
+    margin:0;
+    background-color: #D4E9FF
+}
+.bannerresim{
+margin-top:15px;
+border-radius: 100px;
+border: 4px solid white;
+
+
+}
+#sayfa
+{
+    width:auto;
+    margin:0 auto;
+}
+#banner
+{
+    height:120px;
+    background-image:url("../img/arkaresim.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+#ustmenu li
+{
+  list-style: none;
+}
+
+#ustmenu a
+{
+
+     width: 192.7px;
+     height:40px;
+     color: whitesmoke;
+     background:#082042;
+     float: right;
+     text-align:center;
+     font-family: Helvetica, Arial, sans-serif;
+     text-decoration: none;
+	   font-weight: 900;
+     display: block;
+     transition: 1s;
+	   font-size: 17px;
+	   line-height: 60px;
+}
+
+#ustmenu span
+{
+      display: block;
+      margin-top:-40px;
+
+}
+
+#ustmenu a:hover
+{
+        font-family: Helvetica, Arial, sans-serif;
+        text-shadow: 5px 5px 5px #330322;
+    		background-color: #3C59EB;
+        color: #0CE4E8;
+        font-size:120%;
+}
+#sol
+{
+    float:left;
+    width:185px;
+    height:600px;
+    background:#D4E9FF;
+    margin-top:0.5px;
+}
+
+
+#orta
+{   float: left;
+    width:999px;
+    height:600px;
+    text-align: center;
+    background-color:#D4E9FF;
+    font-family: Calibri, Arial, sans-serif;
+    overflow: auto;
+}
+
+#sag
+{
+
+  float:right;
+  width:150px;
+  height:601px;
+  background-color:#0D2740;
+  color: whitesmoke;
+  font-family: Cursive, Arial, sans-serif;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 13px;
+}
+.saghr
+{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style:inset;
+  border-width: 3px;
+
+}
+#sag a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+#sag a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+#sag a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#sag a:active {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#alt
+{
+    height:75px;
+    background:#3D6280;
+    text-align: center;
+    font-family: Cursive, Arial, sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#alt a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+#alt a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+#alt a:hover
+{
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#alt a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+table,th, td{
+  font-size:20px;
+  border:2px solid blue;
+  color:black;
+  text-align: center;
+}
+
+iframe{
+
+  border:10px solid white;
+}
+.cizgi{
+
+    border:10px solid white;
+}
